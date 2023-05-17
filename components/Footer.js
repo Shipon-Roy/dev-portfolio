@@ -5,7 +5,7 @@ import {BsLinkedin} from "react-icons/bs";
 
 const Footer = () => {
     return (
-        <div id="contact" className="md:flex justify-between items-center px-7 bg-black w-full h-[220px] text-white">
+        <div id="contact" className="md:flex justify-between items-center px-7 bg-black w-full h-[348px] md:h-[220px] text-white">
             <div>
                 <h1 className="text-[24px] font-medium text-green-500">Contact Information</h1>
                 <p  className="flex items-center gap-2 my-3 text-[18px] font-normal"><MdOutlineEmail /> Email: shiponroy509@gmail.com</p>
