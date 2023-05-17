@@ -27,7 +27,14 @@ const Navbar = () => {
           <Link href={"#contact"}>Contact</Link>
         </li>
         <li>
-          <Link href={"resume"}>Resume</Link>
+          <Link
+            target="_blank"
+            href={
+              "https://drive.google.com/file/d/1Eus1Fqd8Jnc9vZ3BwPISFMCAZA2cuRLp/view?usp=sharing"
+            }
+          >
+            Resume
+          </Link>
         </li>
       </ul>
       <div onClick={handleIcon} className="block md:hidden text-[#43D9AD]">
@@ -66,8 +73,11 @@ const Navbar = () => {
         </li>
         <li className="mt-2">
           <Link
+            target="_blank"
+            href={
+              "https://drive.google.com/file/d/1Eus1Fqd8Jnc9vZ3BwPISFMCAZA2cuRLp/view?usp=sharing"
+            }
             className="p-4  hover:bg-slate-500 hover:text-white"
-            href={"resume"}
           >
             Resume
           </Link>

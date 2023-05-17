@@ -3,6 +3,7 @@ import Image from "next/image";
 import shipon from "../../assets/shipon (2).jpg";
 import { FaCode } from "react-icons/fa";
 import { AiOutlineArrowDown } from "react-icons/ai";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -24,7 +25,9 @@ const Hero = () => {
         <button className="font-['Fira_Code'] text-white border py-2 px-7 mt-10  cursor-pointer">Projects</button>
       </div>
     </div>
+    <Link target="_blank" href="https://drive.google.com/file/d/1Eus1Fqd8Jnc9vZ3BwPISFMCAZA2cuRLp/view?usp=sharing">
     <span className="absolute top-16 right-7 md:top-24 md:right-14 font-['Segoe_UI_Historic'] font-normal line-[27px] cursor-pointer text-white">Download CV</span>
+    </Link>
     </>
   );
 };
